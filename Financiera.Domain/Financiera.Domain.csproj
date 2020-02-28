@@ -42,6 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\Credito.cs" />
+    <Compile Include="Entities\Cuota.cs" />
+    <Compile Include="Entities\Empleado.cs" />
+    <Compile Include="Entities\EstadoCredito.cs" />
+    <Compile Include="Entities\Financiera.cs" />
+    <Compile Include="Entities\LineaDePago.cs" />
+    <Compile Include="Entities\Pago.cs" />
+    <Compile Include="Entities\Plan.cs" />
+    <Compile Include="Entities\PlanCuotaAdelantada.cs" />
+    <Compile Include="Entities\PlanCuotaVencida.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
