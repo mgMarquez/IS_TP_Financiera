@@ -13,6 +13,12 @@ namespace Financiera.Domain.Entities
         public double monto { get; set; }
         public double interes { get; set; }
         public DateTime fechaCreacion { get; set; }
+        public Empleado empleado { get; set; }
+        public EstadoCredito estadoCredito { get; set; }
+        public Plan plan { get; set; }
+        public List<Cuota> cuotas { get; set; }
+
+
         #endregion
 
         #region Constructors

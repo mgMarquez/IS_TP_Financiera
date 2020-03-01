@@ -10,6 +10,7 @@ namespace Financiera.Domain.Entities
     {
         #region Properties
         public double monto { get; set; }
+        public Cuota cuota { get; set; }
         #endregion
     }
 }

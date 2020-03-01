@@ -18,6 +18,7 @@ namespace Financiera.Domain.Entities
         public int cantCreditoMax { get; set; }
         public double porcentajeDiario { get; set; }
         public int maxCuotaVencimiento { get; set; }
+        public List<Empleado> listaEmpleados { get; set; }
         #endregion
 
         #region Constructors

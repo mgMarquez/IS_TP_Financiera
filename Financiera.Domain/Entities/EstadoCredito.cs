@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Financiera.Domain.Entities
 {
-    enum EstadoCredito
+    public enum EstadoCredito
     {
-        PENDIENTE =1,
-        ACTIVO = 2,
-        FINALIZADO = 3,
-        PENDIENTEFINALIZACION = 4,
-        MOROSO = 5
+        PENDIENTE =0,
+        ACTIVO = 1,
+        FINALIZADO = 2,
+        PENDIENTEFINALIZACION = 3,
+        MOROSO = 4
     }
 }

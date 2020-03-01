@@ -12,6 +12,8 @@ namespace Financiera.Domain.Entities
         public int numeroPago { get; set; }
         public DateTime fechaPago { get; set; }
         public double totalPagado { get; set; }
+        public Empleado empleado { get; set; }
+        public List<LineaDePago> detallePago { get; set; }
         #endregion
 
         #region Constructors
