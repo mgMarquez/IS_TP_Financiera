@@ -15,6 +15,23 @@ namespace Financiera.Domain.Entities
         public double porcentajeMensual { get; set; }
         #endregion
 
+        #region Constructor
+        public Plan(int numeroPlan, string descripcion, int cantidadCuotas, double porcentajeMensual)
+        {
+            this.numeroPlan = numeroPlan;
+            this.descripcion = descripcion;
+            this.cantidadCuotas = cantidadCuotas;
+            this.porcentajeMensual = porcentajeMensual;
+        }
 
+        #endregion
+
+        #region Public Methods
+        public double calcularInteresTotal()
+        {
+
+            throw new NotImplementedException();
+        }
+        #endregion
     }
 }
